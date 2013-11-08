@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01" >
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="列车编组及灭火器材配置表"
+						android:textSize="20dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="顺号"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="车种"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="车型"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="车号"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="消防锤（把）"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="灭火器材型号"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="数量"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="有效期限"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="有效期限"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="1"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0101"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0102"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0103"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0104"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="2"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0201"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0202"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0203"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0204"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="3"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0301"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0302"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0303"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0304"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="4"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao04"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0401"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0402"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0403"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0404"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="5"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao05"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0501"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0502"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0503"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0504"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="6"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao06"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0601"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0602"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0603"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0604"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="7"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao07"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0701"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0702"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0703"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0704"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="8"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao08"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0801"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0802"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0803"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0804"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="9"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing09"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao09"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0901"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0902"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate0903"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate0904"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="10"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing10"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao10"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1001"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1002"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1003"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1004"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="11"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing11"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao11"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1101"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1102"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1103"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1104"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="12"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing12"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao12"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1201"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1202"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1203"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1204"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="13"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing13"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao13"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1301"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1302"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1303"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1304"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="14"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing14"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao14"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1401"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1402"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1403"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1404"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="15"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing15"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao15"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1501"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1502"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1503"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1504"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="16"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing16"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao16"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1601"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1602"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1603"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1604"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="17"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing17"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao17"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1701"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1702"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1703"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1704"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="18"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing18"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao18"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1801"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1802"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1803"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1804"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="19"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing19"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao19"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1901"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1902"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate1903"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate1904"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="20"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChezhong20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChexing20"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChehao20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoChui20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoXinghao20"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoNum20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate2001"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate2002"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoDate2003"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月" />
+					<EditText
+							android:id="@+id/miehuoDate2004"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:hint="  年     月"  />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02">
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="注：（1）如果有变动，需及时更改；\n	 （2）临时换挂车辆不要填入此表。"
+							android:layout_weight="5" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

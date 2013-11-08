@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01" >
+
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="班组查危小组人员登记表"
+						android:textSize="20dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="姓名"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="组内分工 "
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="职务"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="年龄 "
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="性别"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="政治面貌 "
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="上岗证号"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/safeName01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeWork01"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="组长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeJob01"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="列车长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeEga01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeSex01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeZhengzhi01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeNum01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+					<EditText
+							android:id="@+id/safeName02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeWork02"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="副组长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeJob02"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="乘警长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeEga02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeSex02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeZhengzhi02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeNum02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/safeName03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeWork03"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="副组长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeJob03"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="副列车长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeEga03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeSex03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeZhengzhi03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeNum03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+					<EditText
+							android:id="@+id/safeName04"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeWork04"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="组员" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeJob04"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="乘警" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeEga04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeSex04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeZhengzhi04"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeNum04"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/safeName05"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeWork05"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="组员" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeJob05"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="乘警" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeEga05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeSex05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeZhengzhi05"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeNum05"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+					<EditText
+							android:id="@+id/safeName06"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeWork06"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="组员" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeJob06"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="乘警" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeEga06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeSex06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeZhengzhi06"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeNum06"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/safeName07"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeWork07"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="组员" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeJob07"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="列车值班员" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeEga07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeSex07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeZhengzhi07"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeNum07"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+					<EditText
+							android:id="@+id/safeName08"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeWork08"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="组员" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeJob08"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="安全员" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeEga08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeSex08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeZhengzhi08"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeNum08"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/safeName09"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeWork09"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="组员" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeJob09"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="安全员" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeEga09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeSex09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeZhengzhi09"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeNum09"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+					<EditText
+							android:id="@+id/safeName10"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeWork10"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="组员" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeJob10"
+							style="@style/lineTextView02"
+							android:layout_weight="15"
+							android:text="安全员" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeEga10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeSex10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeZhengzhi10"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeNum10"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

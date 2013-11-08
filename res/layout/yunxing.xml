@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01" >
+
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="济南客运段乘务报告（二）"
+						android:textSize="20dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="列车运行情况"
+							android:layout_weight="5" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="晚点情况 "
+							android:layout_weight="35" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="晚点原因 "
+							android:layout_weight="65" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04"
+        			android:background="@drawable/border" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="上行 "
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/yunxing_checi01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="次到站晚 "
+							android:layout_weight="5" />
+					<EditText
+							android:id="@+id/yunxing_shi01"
+							style="@style/lineTextView02"
+							android:layout_weight="7" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="时 "
+							android:layout_weight="3" />
+					<EditText
+							android:id="@+id/yunxing_fen01"
+							style="@style/lineTextView02"
+							android:layout_weight="7" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="分 "
+							android:layout_weight="3" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan01"
+							style="@style/lineTextView02"
+							android:layout_weight="65" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="下行 "
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/yunxing_checi02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="次到站晚 "
+							android:layout_weight="5" />
+					<EditText
+							android:id="@+id/yunxing_shi02"
+							style="@style/lineTextView02"
+							android:layout_weight="7" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="时 "
+							android:layout_weight="3" />
+					<EditText
+							android:id="@+id/yunxing_fen02"
+							style="@style/lineTextView02"
+							android:layout_weight="7" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="分 "
+							android:layout_weight="3" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan02"
+							style="@style/lineTextView02"
+							android:layout_weight="65" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04" 
+				    android:background="@drawable/border">
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="注：需要打印上交相关部门；记录要全面翔实，未使用栏要填写“无”"
+							android:layout_weight="5" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

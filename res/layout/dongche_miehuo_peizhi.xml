@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01" >
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="动车组灭火器材配置表"
+						android:textSize="30dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+				    <EditText
+							android:id="@+id/dongcheMiehuoDate01"
+							style="@style/lineTextView02"
+							android:layout_weight="20"
+							android:hint="     年         月         日" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="至"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/dongcheMiehuoDate02"
+							style="@style/lineTextView02"
+							android:layout_weight="20"
+							android:hint="     年         月         日" />
+					<TextView
+							style="@style/lineTextView"
+							android:text=""
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/dongcheMiehuoEdit01"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="客运段"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/dongcheMiehuoEdit02"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="车队"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/dongcheMiehuoEdit03"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="次第"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/dongcheMiehuoEdit04"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="包乘组"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="列车长"
+							android:layout_weight="10" />
+				    <EditText
+							android:id="@+id/dongcheMiehuoEdit05"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="械师"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/dongcheMiehuoEdit06"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="司机"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/dongcheMiehuoEdit07"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="乘警"
+							android:layout_weight="10" />
+				    <EditText
+							android:id="@+id/dongcheMiehuoEdit08"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="列车员"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/dongcheMiehuoEdit09"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="餐售人员"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/dongcheMiehuoEdit10"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout03"
+        			android:background="@drawable/border" >
+					<TextView
+							style="@style/lineTextView"
+							android:text=""
+							android:textSize="20dp"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="25">
+					    <TextView
+							style="@style/lineTextView03"
+							android:text="车厢"
+							android:layout_weight="40" />
+					    <Button style="@style/lineBtn02"/>
+					    <TextView
+							style="@style/lineTextView03"
+							android:text="内容"
+							android:layout_weight="40" />
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="15">
+					    <TextView
+							style="@style/lineTextView03"
+							android:text="1号车"
+							android:layout_weight="40" />
+					    <Button style="@style/lineBtn02"/>
+					    <LinearLayout
+							style="@style/linearLayout07"
+							android:layout_weight="60">
+						    <TextView
+								style="@style/lineTextView"
+								android:text="司机室"
+								android:layout_weight="5" />
+						    <Button style="@style/lineBtn"/>
+						    <TextView
+								style="@style/lineTextView"
+								android:text="车厢"
+								android:layout_weight="5" />
+						</LinearLayout>
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="2号车"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="3号车"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="4号车"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="5号车"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="6号车"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="15">
+					    <TextView
+							style="@style/lineTextView03"
+							android:text="7号车"
+							android:layout_weight="40" />
+					    <Button style="@style/lineBtn02"/>
+					    <LinearLayout
+							style="@style/linearLayout07"
+							android:layout_weight="60">
+						    <TextView
+								style="@style/lineTextView"
+								android:text="乘务室"
+								android:layout_weight="5" />
+						    <Button style="@style/lineBtn"/>
+						    <TextView
+								style="@style/lineTextView"
+								android:text="车厢"
+								android:layout_weight="5" />
+						</LinearLayout>
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="15">
+					    <TextView
+							style="@style/lineTextView03"
+							android:text="8号车"
+							android:layout_weight="40" />
+					    <Button style="@style/lineBtn02"/>
+					    <LinearLayout
+							style="@style/linearLayout07"
+							android:layout_weight="60">
+						    <TextView
+								style="@style/lineTextView"
+								android:text="车厢"
+								android:layout_weight="5" />
+						    <Button style="@style/lineBtn"/>
+						    <TextView
+								style="@style/lineTextView"
+								android:text="司机室"
+								android:layout_weight="5" />
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<TextView
+						style="@style/lineTextView"
+						android:text="灭火器"
+						android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="5">
+					    <TextView
+							style="@style/lineTextView03"
+							android:text="干粉"
+							android:layout_weight="40" />
+					    <Button style="@style/lineBtn02"/>
+					    <TextView
+							style="@style/lineTextView03"
+							android:text="水型"
+							android:layout_weight="40" />
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="15">
+					    <TextView
+							style="@style/lineTextView03"
+							android:text="数量（具）"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <TextView
+							style="@style/lineTextView03"
+							android:text="重量（KG）"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <LinearLayout
+							style="@style/linearLayout07"
+							android:layout_weight="20">
+						    <TextView
+								style="@style/lineTextView"
+								android:text="维修日期"
+								android:layout_weight="5" />
+						    <Button style="@style/lineBtn"/>
+						    <LinearLayout
+							    style="@style/linearLayout06"
+							    android:layout_weight="10">
+							    <TextView
+									style="@style/lineTextView03"
+									android:text="维修"
+									android:layout_weight="40" />
+							    <Button style="@style/lineBtn02"/>
+							    <TextView
+									style="@style/lineTextView03"
+									android:text="到期"
+									android:layout_weight="40" />
+							</LinearLayout>
+						</LinearLayout>
+						<Button style="@style/lineBtn02"/>
+						<TextView
+							style="@style/lineTextView03"
+							android:text="数量（具）"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <TextView
+							style="@style/lineTextView03"
+							android:text="重量（L）"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <LinearLayout
+							style="@style/linearLayout07"
+							android:layout_weight="20">
+						    <TextView
+								style="@style/lineTextView"
+								android:text="维修日期"
+								android:layout_weight="5" />
+						    <Button style="@style/lineBtn"/>
+						    <LinearLayout
+							    style="@style/linearLayout06"
+							    android:layout_weight="10">
+							    <TextView
+									style="@style/lineTextView03"
+									android:text="维修"
+									android:layout_weight="40" />
+							    <Button style="@style/lineBtn02"/>
+							    <TextView
+									style="@style/lineTextView03"
+									android:text="到期"
+									android:layout_weight="40" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="15">
+					    <EditText
+							android:id="@+id/ganfenNum01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenZhongliang01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenWeixiu01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenDaoqi01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingNum01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingZhongliang01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingWeixiu01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingDaoqi01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="5">
+					    <EditText
+							android:id="@+id/ganfenNum02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenZhongliang02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenWeixiu02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenDaoqi02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingNum02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingZhongliang02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingWeixiu02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingDaoqi02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="5">
+					    <EditText
+							android:id="@+id/ganfenNum03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenZhongliang03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenWeixiu03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenDaoqi03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingNum03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingZhongliang03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingWeixiu03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingDaoqi03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="5">
+					    <EditText
+							android:id="@+id/ganfenNum04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenZhongliang04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenWeixiu04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenDaoqi04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingNum04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingZhongliang04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingWeixiu04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingDaoqi04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="5">
+					    <EditText
+							android:id="@+id/ganfenNum05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenZhongliang05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenWeixiu05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenDaoqi05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingNum05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingZhongliang05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingWeixiu05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingDaoqi05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="5">
+					    <EditText
+							android:id="@+id/ganfenNum06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenZhongliang06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenWeixiu06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenDaoqi06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingNum06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingZhongliang06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingWeixiu06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingDaoqi06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="15">
+					    <EditText
+							android:id="@+id/ganfenNum07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenZhongliang07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenWeixiu07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenDaoqi07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingNum07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingZhongliang07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingWeixiu07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingDaoqi07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					</LinearLayout>
+					<Button style="@style/lineBtn"/>
+					<LinearLayout
+					    style="@style/linearLayout06"
+					    android:layout_weight="15">
+					    <EditText
+							android:id="@+id/ganfenNum08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenZhongliang08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenWeixiu08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/ganfenDaoqi08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingNum08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingZhongliang08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingWeixiu08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					    <Button style="@style/lineBtn02"/>
+					    <EditText
+							android:id="@+id/shuixingDaoqi08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					style="@style/linearLayout02"
+					android:background="@drawable/border">
+					<TextView
+						style="@style/lineTextView"
+						android:text="紧急破窗锤"
+						android:layout_weight="25" />
+					<Button style="@style/lineBtn"/>
+				    <EditText
+							android:id="@+id/shuixingChui01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				    <Button style="@style/lineBtn"/>
+				    <EditText
+							android:id="@+id/shuixingChui02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+				    <EditText
+							android:id="@+id/shuixingChui03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+				    <EditText
+							android:id="@+id/shuixingChui04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+				    <EditText
+							android:id="@+id/shuixingChui05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+				    <EditText
+							android:id="@+id/shuixingChui06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+				    <EditText
+							android:id="@+id/shuixingChui07"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				    <Button style="@style/lineBtn"/>
+				    <EditText
+							android:id="@+id/shuixingChui08"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="注：请确保信息的正确性。"
+							android:layout_weight="15" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

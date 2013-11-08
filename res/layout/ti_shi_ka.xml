@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01" >
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="岗位安全风险提示卡"
+						android:textSize="20dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="适用岗位："
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/fengxianCardJob"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="适用车队类型："
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/fengxianCardClass"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="序号"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="安全风险项点"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="类别"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="原因描述及可能后果"
+							android:layout_weight="25" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="主要安全风险控制措施 "
+							android:layout_weight="25" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="互控人"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+					<EditText
+							android:id="@+id/fengxianCardNum01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardPoint01"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardClass01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardResult01"
+							style="@style/lineTextView02"
+							android:layout_weight="25" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardMethod01"
+							style="@style/lineTextView02"
+							android:layout_weight="25" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardPeople01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+					<EditText
+							android:id="@+id/fengxianCardNum02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardPoint02"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardClass02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardResult02"
+							style="@style/lineTextView02"
+							android:layout_weight="25" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardMethod02"
+							style="@style/lineTextView02"
+							android:layout_weight="25" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardPeople02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+					<EditText
+							android:id="@+id/fengxianCardNum03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardPoint03"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardClass03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardResult03"
+							style="@style/lineTextView02"
+							android:layout_weight="25" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardMethod03"
+							style="@style/lineTextView02"
+							android:layout_weight="25" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/fengxianCardPeople03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

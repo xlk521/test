@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TableRow
+	android:id="@+id/widget41"
+	android:layout_width="fill_parent"
+	android:layout_height="43dp"
+	android:orientation="horizontal">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="&#20056;&#21153;&#32452;&#65306;" />
+<EditText
+	android:id="@+id/ChengWuZu"
+	android:layout_width="200dp"
+	android:layout_height="40dp"
+	android:textSize="18sp" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget46"
+	android:layout_width="fill_parent"
+	android:layout_height="45dp"
+	android:orientation="horizontal">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="&#21457;&#36710;&#26085;&#26399;&#65306;" />
+<EditText
+	android:id="@+id/FaChe01"
+	android:layout_width="200dp"
+	android:layout_height="40dp"
+	android:textSize="18sp" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget49"
+	android:layout_width="fill_parent"
+	android:layout_height="42dp"
+	android:orientation="horizontal">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="40dp"
+	android:text="&#21457;&#36710;&#36710;&#31449;&#65306;" />
+<EditText
+	android:id="@+id/FaCheZhan01"
+	android:layout_width="200dp"
+	android:layout_height="40dp"
+	android:textSize="18sp" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget52"
+	android:layout_width="fill_parent"
+	android:layout_height="46dp"
+	android:orientation="horizontal">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="40dp"
+	android:text="&#21040;&#31449;&#26085;&#26399;&#65306;" />
+<EditText
+	android:id="@+id/DaoZhan01"
+	android:layout_width="200dp"
+	android:layout_height="40dp"
+	android:textSize="18sp" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget55"
+	android:layout_width="fill_parent"
+	android:layout_height="47dp"
+	android:orientation="horizontal">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="40dp"
+	android:text="&#21040;&#31449;&#31449;&#21517;&#65306;" />
+<EditText
+	android:id="@+id/DaoZhanName01"
+	android:layout_width="200dp"
+	android:layout_height="40dp"
+	android:textSize="18sp" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget58"
+	android:layout_width="fill_parent"
+	android:layout_height="42dp"
+	android:orientation="horizontal">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="40dp"
+	android:text="&#36710;&#27425;&#21495;&#65306;" />
+<EditText
+	android:id="@+id/CheCi01"
+	android:layout_width="200dp"
+	android:layout_height="40dp"
+	android:textSize="18sp" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget61"
+	android:layout_width="fill_parent"
+	android:layout_height="44dp"
+	android:orientation="horizontal">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="40dp"
+	android:text="&#20572;&#31449;&#65306;" />
+<EditText
+	android:id="@+id/TingZhan01"
+	android:layout_width="200dp"
+	android:layout_height="40dp"
+	android:textSize="18sp" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget64"
+	android:layout_width="fill_parent"
+	android:layout_height="44dp"
+	android:orientation="horizontal">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="40dp"
+	android:text="&#24635;&#20849;&#36816;&#34892;&#65306;" />
+<EditText
+	android:id="@+id/YunXingTime01"
+	android:layout_width="65dp"
+	android:layout_height="40dp"
+	android:textSize="18sp" />
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="40dp"
+	android:text="&#23567;&#26102;" />
+<EditText
+	android:id="@+id/YunXingTime02"
+	android:layout_width="65dp"
+	android:layout_height="40dp"
+	android:textSize="18sp" />
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="40dp"
+	android:text="&#20998;&#38047;" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget70"
+	android:layout_width="fill_parent"
+	android:layout_height="45dp"
+	android:orientation="horizontal">
+<Button
+	android:id="@+id/AddFirst"
+	android:layout_width="wrap_content"
+	android:layout_height="45dp"
+	android:text="&#28155;&#21152;&#31532;&#19968;&#32452;&#26102;&#38388;" />
+<Button
+	android:id="@+id/AddSecong"
+	android:layout_width="wrap_content"
+	android:layout_height="45dp"
+	android:text="&#28155;&#21152;&#31532;&#20108;&#32452;&#26102;&#38388;" />
+</TableRow>
+</LinearLayout>

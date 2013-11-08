@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01" >
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="上级有关查危工作文、电摘抄（纸质  表五）"
+						android:textSize="20dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="发文单位"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="文件名称 "
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="内容摘抄"
+							android:layout_weight="55" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="摘抄时间 "
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="摘抄人"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:minHeight="300dp"
+				    android:orientation="horizontal"
+				    android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/zhaichao01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaoName01"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaoContent01"
+							style="@style/lineTextView02"
+							android:layout_weight="55" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaSendTime01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaoTime01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:minHeight="300dp"
+				    android:orientation="horizontal" >
+					<EditText
+							android:id="@+id/zhaichao02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaoName02"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaoContent02"
+							style="@style/lineTextView02"
+							android:layout_weight="55" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaSendTime02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaoTime02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:minHeight="300dp"
+				    android:orientation="horizontal"
+				    android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/zhaichao03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaoName03"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaoContent03"
+							style="@style/lineTextView02"
+							android:layout_weight="55" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaSendTime03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/zhaichaoTime03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="注：此表只填写有关查危安全的文件。"
+							android:layout_weight="15" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

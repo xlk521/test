@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01" >
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="旅客列车消防安全台账"
+						android:textSize="30dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+				    <EditText
+							android:id="@+id/safeTZDate01"
+							style="@style/lineTextView02"
+							android:layout_weight="20"
+							android:hint="     年         月         日" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="至"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/safeTZDate02"
+							style="@style/lineTextView02"
+							android:layout_weight="20"
+							android:hint="     年         月         日" />
+					<TextView
+							style="@style/lineTextView"
+							android:text=""
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/safeTZEdit01"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="客运段"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/safeTZEdit02"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="车队"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/safeTZEdit03"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="次第"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/safeTZEdit04"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="包乘组"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="列车长"
+							android:layout_weight="10" />
+				    <EditText
+							android:id="@+id/safeTZEdit05"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="乘警（长）"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/safeTZEdit06"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="检车（长）"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/safeTZEdit07"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="发电车：乘务长"
+							android:layout_weight="15" />
+				    <EditText
+							android:id="@+id/safeTZEdit08"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="餐车长"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/safeTZEdit09"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<TextView
+							style="@style/lineTextView"
+							android:text="厨师长"
+							android:layout_weight="10" />
+					<EditText
+							android:id="@+id/safeTZEdit10"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout03"
+        			android:background="@drawable/border" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="列车长变更交接签字"
+							android:textSize="25dp"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="离任列车长"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="日期"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="接任列车长"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="日期"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/safeTZLi01"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZTime01"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJie01"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJieTime01"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/safeTZLi02"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZTime02"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJie02"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJieTime02"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/safeTZLi03"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZTime03"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJie03"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJieTime03"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/safeTZLi04"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZTime04"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJie04"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJieTime04"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/safeTZLi05"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZTime05"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJie05"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJieTime05"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/safeTZLi06"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZTime06"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJie06"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJieTime06"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/safeTZLi07"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZTime07"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJie07"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJieTime07"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/safeTZLi08"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZTime08"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJie08"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJieTime08"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/safeTZLi09"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZTime09"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJie09"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJieTime09"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/safeTZLi10"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZTime10"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJie10"
+							style="@style/lineTextView02"
+							android:layout_weight="30" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/safeTZJieTime10"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/safeTZJieZhu"
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:layout_weight="20"
+							android:text="注：（1）本档案使用期为一年，换发后的档案交车队统一保存三年备案；\n
+								（2）本档案由列车长全面负责和保管，按规定及时填写，不得错填、漏填或突击补填；\n
+									（3）如有担当临客任务的班组，也要填写列车消防安全台账。" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01" >
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="列车防火领导小组登记表"
+						android:textSize="20dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="姓名"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="职务"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="年龄"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="性别"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="政治面貌"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="到任时间"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/remarkName01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu01"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:text="列车长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/remarkName02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu02"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:text="副列车长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/remarkName03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu03"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:text="乘警长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/remarkName04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu04"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:text="检车长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/remarkName05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu05"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:text="空调发电车乘务长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/remarkName06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu06"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:text="餐车长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/remarkName07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu07"
+							style="@style/lineTextView02"
+							android:layout_weight="10"
+							android:text="厨师长" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border">
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="注：（1）如果有变动，需及时更改；\n	（2）对车底轮乘制的检车、发电车、餐车应分别填表。"
+							android:layout_weight="5" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

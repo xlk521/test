@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01">
+
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="济南客运段乘务报告（二）"
+						android:textSize="20dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+        			android:background="@drawable/border" >
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="领导乘车（干部添乘）及检查情况"
+							android:layout_weight="5" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04" >
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="领导姓名"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="部门 "
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="乘车时间及区段 "
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="检查问题（反馈意见） "
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/leaderName01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderBuMen01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan01"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderYiJian01"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04" >
+					<EditText
+							android:id="@+id/leaderName02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderBuMen02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan02"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderYiJian02"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/leaderName03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderBuMen03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan03"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderYiJian03"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04" >
+					<EditText
+							android:id="@+id/leaderName04"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderBuMen04"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan04"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderYiJian04"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/leaderName05"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderBuMen05"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan05"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderYiJian05"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04" >
+					<EditText
+							android:id="@+id/leaderName06"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderBuMen06"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan06"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderYiJian06"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/leaderName07"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderBuMen07"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan07"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderYiJian07"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04" >
+					<EditText
+							android:id="@+id/leaderName08"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderBuMen08"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan08"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderYiJian08"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/leaderName09"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderBuMen09"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan09"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderYiJian09"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04" >
+					<EditText
+							android:id="@+id/leaderName10"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderBuMen10"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan10"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderYiJian10"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04"
+        			android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/leaderName11"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderBuMen11"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderQuDuan11"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/leaderYiJian11"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout04" >
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="注：需要打印上交相关部门；记录要全面翔实，未使用栏要填写“无”"
+							android:layout_weight="5" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

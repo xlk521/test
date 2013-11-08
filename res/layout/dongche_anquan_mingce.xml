@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01" >
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="动车组消防安全小组名册"
+						android:textSize="20dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="姓名"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="职务"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="年龄"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="性别"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="政治面貌"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="到任时间"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/remarkName01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/remarkName02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu02"
+							style="@style/lineTextView02"
+							android:layout_weight="10"/>
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/remarkName03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu03"
+							style="@style/lineTextView02"
+							android:layout_weight="10"/>
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/remarkName04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu04"
+							style="@style/lineTextView02"
+							android:layout_weight="10"/>
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/remarkName05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/remarkName06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/remarkName07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu07"
+							style="@style/lineTextView02"
+							android:layout_weight="10"/>
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/remarkName08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/remarkName09"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu09"
+							style="@style/lineTextView02"
+							android:layout_weight="10"/>
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga09"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex09"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi09"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime09"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/remarkName10"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu10"
+							style="@style/lineTextView02"
+							android:layout_weight="10"/>
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga10"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex10"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi10"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime10"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/remarkName11"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu11"
+							style="@style/lineTextView02"
+							android:layout_weight="10"/>
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga11"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex11"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi11"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime11"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/remarkName12"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu12"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga12"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex12"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi12"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime12"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/remarkName13"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu13"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga13"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex13"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi13"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime13"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/remarkName14"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu14"
+							style="@style/lineTextView02"
+							android:layout_weight="10"/>
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkEga14"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkSex14"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhengzhi14"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkTime14"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border">
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text=""
+							android:layout_weight="5" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

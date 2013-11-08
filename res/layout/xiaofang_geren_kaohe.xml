@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01" >
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="消防安全个人考核表"
+						android:textSize="20dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<TextView
+							style="@style/lineTextView"
+							android:text="姓名"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="考核内容 "
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="考核时间"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="考核结果 "
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/kaoheName01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheNum01"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheShixiang01"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheRemark01"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/kaoheName02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheNum02"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheShixiang02"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheRemark02"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/kaoheName03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheNum03"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheShixiang03"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheRemark03"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/kaoheName04"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheNum04"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheShixiang04"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheRemark04"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/kaoheName05"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheNum05"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheShixiang05"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheRemark05"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/kaoheName06"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheNum06"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheShixiang06"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheRemark06"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/kaoheName07"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheNum07"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheShixiang07"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheRemark07"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/kaoheName08"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheNum08"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheShixiang08"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheRemark08"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/kaoheName09"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheNum09"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheShixiang09"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheRemark09"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<EditText
+							android:id="@+id/kaoheName10"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheNum10"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheShixiang10"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheRemark10"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+					<EditText
+							android:id="@+id/kaoheName11"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheNum11"
+							style="@style/lineTextView02"
+							android:layout_weight="50" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheShixiang11"
+							style="@style/lineTextView02"
+							android:layout_weight="15" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/kaoheRemark11"
+							style="@style/lineTextView02"
+							android:layout_weight="20" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border" >
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="注：此表考核内容以济南铁路局《旅客列车消防管理实施细则》规定执行。"
+							android:layout_weight="15" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

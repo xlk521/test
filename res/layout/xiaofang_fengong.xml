@@ -1,0 +1,1841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<HorizontalScrollView
+			android:id="@+id/widget38"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#aaa"
+			android:layout_marginLeft="3dp">
+
+		   <LinearLayout
+		       style="@style/linearLayout01" >
+		       <LinearLayout
+				    style="@style/linearLayout03" >
+				    <TextView
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="列车义务消防队火灾处置分工表"
+						android:textSize="20dp"
+						android:background="#a2a2a2a2"
+						android:gravity="center"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"    >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="火场指挥（列车长）"
+							android:layout_weight="25" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/remarkZhiwu01"
+							style="@style/lineTextView02"
+							android:layout_weight="75" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="灭火组"
+							android:layout_weight="25" />
+				    <Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="抢救疏散组"
+							android:layout_weight="25" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="通信联络组"
+							android:layout_weight="25" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="现场保护组"
+							android:layout_weight="25" />
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <TextView
+							style="@style/lineTextView"
+							android:text="人员"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="姓名"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="性别"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="年龄"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="人员"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="姓名"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="性别"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="年龄"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="人员"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="姓名"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="性别"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="年龄"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="人员"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="姓名"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="性别"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<TextView
+							style="@style/lineTextView"
+							android:text="年龄"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/miehuoPeople01"
+							style="@style/lineTextView02"
+							android:layout_weight="5"
+							android:text="组长" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople01"
+							style="@style/lineTextView02"
+							android:layout_weight="5"
+							android:text="组长" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople01"
+							style="@style/lineTextView02"
+							android:layout_weight="5"
+							android:text="组长" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople01"
+							style="@style/lineTextView02"
+							android:layout_weight="5"
+							android:text="组长" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName01"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga01"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/miehuoPeople02"
+							style="@style/lineTextView02"
+							android:layout_weight="5"
+							android:text="组员" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople02"
+							style="@style/lineTextView02"
+							android:layout_weight="5"
+							android:text="组员" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople02"
+							style="@style/lineTextView02"
+							android:layout_weight="5"
+							android:text="组员" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople02"
+							style="@style/lineTextView02"
+							android:layout_weight="5"
+							android:text="组员" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName02"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga02"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/miehuoPeople03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople03"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName03"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga03"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/miehuoPeople04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople04"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName04"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga04"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/miehuoPeople05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople05"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName05"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga05"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/miehuoPeople06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople06"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName06"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga06"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/miehuoPeople07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople07"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName07"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga07"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/miehuoPeople08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople08"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName08"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga08"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/miehuoPeople09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName09"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName09"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople09"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName09"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName09"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga09"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/miehuoPeople10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName10"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName10"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople10"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName10"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName10"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga10"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/miehuoPeople11"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName11"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople11"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName11"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople11"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName11"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName11"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga11"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/miehuoPeople12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName12"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople12"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName12"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName12"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName12"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga12"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"  >
+				    <EditText
+							android:id="@+id/miehuoPeople13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName13"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName13"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople13"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName13"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName13"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga13"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/miehuoPeople14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName14"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName14"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople14"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName14"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName14"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga14"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/miehuoPeople15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName15"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName15"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople15"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName15"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName15"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga15"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/miehuoPeople16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName16"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName16"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople16"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName16"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName16"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga16"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/miehuoPeople17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName17"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName17"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople17"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName17"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName17"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga17"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/miehuoPeople18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName18"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName18"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople18"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName18"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName18"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga18"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02" >
+				    <EditText
+							android:id="@+id/miehuoPeople19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName19"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName19"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople19"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName19"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName19"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga19"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
+				    <EditText
+							android:id="@+id/miehuoPeople20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoName20"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoSex20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/miehuoEga20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuPeople20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuName20"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuSex20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/qiangjiuEga20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinPeople20"
+							style="@style/lineTextView02"
+							android:layout_weight="5"/>
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinName20"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinSex20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/tongxinEga20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuPeople20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+				    <Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuName20"
+							style="@style/lineTextView02"
+							android:layout_weight="10" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuSex20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+					<EditText
+							android:id="@+id/baohuEga20"
+							style="@style/lineTextView02"
+							android:layout_weight="5" />
+					<Button style="@style/lineBtn"/>
+				</LinearLayout>
+				<LinearLayout
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border">
+					<TextView
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:text="注：（1）如果有变动，需及时更改；\n	（2）全组人员应做到搭配合理，分工明确；\n	（3）全体乘务人员均为义务消防员。"
+							android:layout_weight="5" />
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>
