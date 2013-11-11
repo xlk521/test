@@ -290,7 +290,8 @@
 							android:layout_weight="10" />
 				</LinearLayout>
 				<LinearLayout
-				    style="@style/linearLayout02"  >
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"   >
 				    <EditText
 							android:id="@+id/remarkName08"
 							style="@style/lineTextView02"
@@ -322,8 +323,7 @@
 							android:layout_weight="10" />
 				</LinearLayout>
 				<LinearLayout
-				    style="@style/linearLayout02"
-				    android:background="@drawable/border"  >
+				    style="@style/linearLayout02" >
 				    <EditText
 							android:id="@+id/remarkName09"
 							style="@style/lineTextView02"
@@ -355,7 +355,8 @@
 							android:layout_weight="10" />
 				</LinearLayout>
 				<LinearLayout
-				    style="@style/linearLayout02" >
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"  >
 				    <EditText
 							android:id="@+id/remarkName10"
 							style="@style/lineTextView02"
@@ -387,8 +388,7 @@
 							android:layout_weight="10" />
 				</LinearLayout>
 				<LinearLayout
-				    style="@style/linearLayout02"
-				    android:background="@drawable/border"  >
+				    style="@style/linearLayout02" >
 				    <EditText
 							android:id="@+id/remarkName11"
 							style="@style/lineTextView02"
@@ -420,7 +420,8 @@
 							android:layout_weight="10" />
 				</LinearLayout>
 				<LinearLayout
-				    style="@style/linearLayout02"  >
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"   >
 				    <EditText
 							android:id="@+id/remarkName12"
 							style="@style/lineTextView02"
@@ -452,8 +453,7 @@
 							android:layout_weight="10" />
 				</LinearLayout>
 				<LinearLayout
-				    style="@style/linearLayout02"
-				    android:background="@drawable/border"  >
+				    style="@style/linearLayout02"  >
 				    <EditText
 							android:id="@+id/remarkName13"
 							style="@style/lineTextView02"
@@ -485,7 +485,8 @@
 							android:layout_weight="10" />
 				</LinearLayout>
 				<LinearLayout
-				    style="@style/linearLayout02"  >
+				    style="@style/linearLayout02"
+				    android:background="@drawable/border"   >
 				    <EditText
 							android:id="@+id/remarkName14"
 							style="@style/lineTextView02"

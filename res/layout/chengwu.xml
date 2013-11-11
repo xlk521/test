@@ -269,8 +269,9 @@
 							style="@style/lineTextView02"
 							android:hint="副列车长"
 							android:layout_weight="25" />
-						<Button style="@style/lineBtn"/>
+						
 					</LinearLayout>
+					<Button style="@style/lineBtn"/>
 					<LinearLayout
 					    android:layout_width="0dp"
 					    android:layout_height="40dp"
@@ -285,8 +286,9 @@
 							style="@style/lineTextView02"
 							android:hint="乘警"
 							android:layout_weight="25" />
-						<Button style="@style/lineBtn"/>
+						
 					</LinearLayout>
+					<Button style="@style/lineBtn"/>
 					<LinearLayout
 					    android:layout_width="0dp"
 					    android:layout_height="40dp"
@@ -301,8 +303,9 @@
 							style="@style/lineTextView02"
 							android:hint="检车长"
 							android:layout_weight="25" />
-						<Button style="@style/lineBtn"/>
+						
 					</LinearLayout>
+					<Button style="@style/lineBtn"/>
 					<LinearLayout
 					    android:layout_width="0dp"
 					    android:layout_height="40dp"
@@ -317,7 +320,7 @@
 							style="@style/lineTextView02"
 							android:hint="广播员"
 							android:layout_weight="25" />
-						<Button style="@style/lineBtn"/>
+						
 					</LinearLayout>
 				</LinearLayout>
 				<LinearLayout
@@ -336,8 +339,9 @@
 							style="@style/lineTextView02"
 							android:hint="餐车长"
 							android:layout_weight="25" />
-						<Button style="@style/lineBtn"/>
+						
 					</LinearLayout>
+					<Button style="@style/lineBtn"/>
 					<LinearLayout
 					    android:layout_width="0dp"
 					    android:layout_height="40dp"
@@ -352,19 +356,14 @@
 							style="@style/lineTextView02"
 							android:hint="厨师"
 							android:layout_weight="25" />
-						<Button style="@style/lineBtn"/>
+						
 					</LinearLayout>
+					<Button style="@style/lineBtn"/>
 					<LinearLayout
 					    android:layout_width="0dp"
 					    android:layout_height="40dp"
 					    android:orientation="horizontal"
-					    android:layout_weight="5"  >
-					</LinearLayout>
-					<LinearLayout
-					    android:layout_width="0dp"
-					    android:layout_height="40dp"
-					    android:orientation="horizontal"
-					    android:layout_weight="5"  >
+					    android:layout_weight="10"  >
 					</LinearLayout>
 				</LinearLayout>
 				<LinearLayout

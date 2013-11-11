@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/linearLayout02" >
+		<TextView
+		    	android:id="@+id/chezhong01"
+				style="@style/lineTextView"
+				android:text="1"
+				android:layout_weight="5"
+				android:gravity="center" />
+		<Button style="@style/lineBtn"/>
+		<EditText
+				android:id="@+id/chezhong01"
+				style="@style/lineTextView02"
+				android:hint="TKY"
+				android:layout_weight="5" />
+		<Button style="@style/lineBtn"/>
+		<EditText
+				android:id="@+id/chehao01"
+				style="@style/lineTextView02"
+				android:hint="T123"
+				android:layout_weight="10" />
+		<Button style="@style/lineBtn"/>
+		<EditText
+				android:id="@+id/dingyuan01"
+				style="@style/lineTextView02"
+				android:hint="66"
+				android:layout_weight="10" />
+		<Button style="@style/lineBtn"/>
+		<EditText
+				android:id="@+id/TrainCrew01"
+				style="@style/lineTextView02"
+				android:hint="卡卡拉希腊"
+				android:layout_weight="20" />
+		<Button style="@style/lineBtn"/>
+		<EditText
+				android:id="@+id/E_id01"
+				style="@style/lineTextView02"
+				android:hint="T0012345"
+				android:layout_weight="10" />
+		<Button style="@style/lineBtn"/>
+		<EditText
+				android:id="@+id/TrainCrew21"
+				style="@style/lineTextView02"
+				android:hint="拉卡积极啊"
+				android:layout_weight="20" />
+		<Button style="@style/lineBtn"/>
+		<EditText
+				android:id="@+id/E_id21"
+				style="@style/lineTextView02"
+				android:hint="123456"
+				android:layout_weight="10" />
+		<Button style="@style/lineBtn"/>
+		<EditText
+				android:id="@+id/canshou01"
+				style="@style/lineTextView02"
+				android:hint="巴拉巴拉"
+				android:layout_weight="20" />
+
+</LinearLayout>

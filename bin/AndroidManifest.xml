@@ -22,6 +22,58 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.test.BanzuGiakuangActivity"
+            android:label="@string/title_activity_banzu_giakuang" >
+        </activity>
+        <activity
+            android:name="com.example.test.ChengWUActivity"
+            android:label="@string/title_activity_cheng_wu" >
+        </activity>
+        <activity
+            android:name="com.example.test.DongCheAnQuanActivity"
+            android:label="@string/title_activity_dong_che_an_quan" >
+        </activity>
+        <activity
+            android:name="com.example.test.DongcheMiehuoActivity"
+            android:label="@string/title_activity_dongche_miehuo" >
+        </activity>
+        <activity
+            android:name="com.example.test.FangHuoLeaderActivity"
+            android:label="@string/title_activity_fang_huo_leader" >
+        </activity>
+        <activity
+            android:name="com.example.test.HardChaWeiActivity"
+            android:label="@string/title_activity_hard_cha_wei" >
+        </activity>
+        <activity
+            android:name="com.example.test.HuoZaiMarkActivity"
+            android:label="@string/title_activity_huo_zai_mark" >
+        </activity>
+        <activity
+            android:name="com.example.test.LeaderActivity"
+            android:label="@string/title_activity_leader" >
+        </activity>
+        <activity
+            android:name="com.example.test.MieHuoPeiZhiActivity"
+            android:label="@string/title_activity_mie_huo_pei_zhi" >
+        </activity>
+        <activity
+            android:name="com.example.test.MieHuoPeiZhi"
+            android:label="@string/title_activity_mie_huo_pei_zhi" >
+        </activity>
+        <activity
+            android:name="com.example.test.SafeRemarkActivity"
+            android:label="@string/title_activity_safe_remark" >
+        </activity>
+        <activity
+            android:name="com.example.test.RiChangBaseActivity"
+            android:label="@string/title_activity_ri_chang_base" >
+        </activity>
+        <activity
+            android:name="com.example.test.SafeTaiZhangActivity"
+            android:label="@string/title_activity_safe_tai_zhang" >
+        </activity>
     </application>
 
 </manifest>

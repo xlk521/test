@@ -358,42 +358,42 @@
 					    android:layout_weight="15">
 					    <EditText
 							android:id="@+id/ganfenNum01"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenZhongliang01"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenWeixiu01"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenDaoqi01"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingNum01"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingZhongliang01"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingWeixiu01"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingDaoqi01"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					</LinearLayout>
 					<Button style="@style/lineBtn"/>
@@ -402,42 +402,42 @@
 					    android:layout_weight="5">
 					    <EditText
 							android:id="@+id/ganfenNum02"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenZhongliang02"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenWeixiu02"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenDaoqi02"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingNum02"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingZhongliang02"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingWeixiu02"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingDaoqi02"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					</LinearLayout>
 					<Button style="@style/lineBtn"/>
@@ -446,42 +446,42 @@
 					    android:layout_weight="5">
 					    <EditText
 							android:id="@+id/ganfenNum03"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenZhongliang03"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenWeixiu03"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenDaoqi03"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingNum03"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingZhongliang03"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingWeixiu03"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingDaoqi03"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					</LinearLayout>
 					<Button style="@style/lineBtn"/>
@@ -490,42 +490,42 @@
 					    android:layout_weight="5">
 					    <EditText
 							android:id="@+id/ganfenNum04"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenZhongliang04"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenWeixiu04"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenDaoqi04"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingNum04"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingZhongliang04"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingWeixiu04"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingDaoqi04"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					</LinearLayout>
 					<Button style="@style/lineBtn"/>
@@ -534,42 +534,42 @@
 					    android:layout_weight="5">
 					    <EditText
 							android:id="@+id/ganfenNum05"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenZhongliang05"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenWeixiu05"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenDaoqi05"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingNum05"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingZhongliang05"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingWeixiu05"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingDaoqi05"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					</LinearLayout>
 					<Button style="@style/lineBtn"/>
@@ -578,42 +578,42 @@
 					    android:layout_weight="5">
 					    <EditText
 							android:id="@+id/ganfenNum06"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenZhongliang06"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenWeixiu06"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenDaoqi06"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingNum06"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingZhongliang06"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingWeixiu06"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingDaoqi06"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					</LinearLayout>
 					<Button style="@style/lineBtn"/>
@@ -622,42 +622,42 @@
 					    android:layout_weight="15">
 					    <EditText
 							android:id="@+id/ganfenNum07"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenZhongliang07"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenWeixiu07"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenDaoqi07"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingNum07"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingZhongliang07"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingWeixiu07"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingDaoqi07"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					</LinearLayout>
 					<Button style="@style/lineBtn"/>
@@ -666,42 +666,42 @@
 					    android:layout_weight="15">
 					    <EditText
 							android:id="@+id/ganfenNum08"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenZhongliang08"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenWeixiu08"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/ganfenDaoqi08"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingNum08"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingZhongliang08"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingWeixiu08"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					    <Button style="@style/lineBtn02"/>
 					    <EditText
 							android:id="@+id/shuixingDaoqi08"
-							style="@style/lineTextView02"
+							style="@style/lineTextView04"
 							android:layout_weight="10" />
 					</LinearLayout>
 				</LinearLayout>
